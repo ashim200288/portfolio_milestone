@@ -142,7 +142,7 @@ nav .menu a{
     gap: 24px;
 }
 
-#skills{
+#skills, resume{
     padding: 130px;
 }
 .skill-box .skill-card {
@@ -168,4 +168,43 @@ nav .menu a{
     color: #757575;
     line-height: 28px;
 
+}
+#resume .resume-container{
+        width: 71%;
+        margin: 1140px;
+        margin: 113px auto 0;
+        display: flex;
+        gap: 24px;
+}
+
+.resume-container .section-title{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-card .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-container{
+    margin: 30px;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #757575;
+}
+.resume-card .card-text{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+   
+    color: #757575;
 }
